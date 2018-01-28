@@ -7,4 +7,22 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+
 /* http://www.modularscale.com/?18&px&1.125 */
+
+html {
+	font-size: 1.125em;
+	line-height: 1.222em;
+  font-family: sans-serif;
+  padding-left: 1.222em;
+  padding-top: 1.222em;
+}
+
+li {
+	padding-bottom: 1.222em;
+}
+
+label,
+input {
+	display: block;
+}
