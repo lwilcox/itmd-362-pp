@@ -11,7 +11,7 @@ $('#contact-form').on('submit',
     check = new Date(check.setYear(check.getYear() - 18));
 
 
-    //  Not sure whats wrong with my birthday validation but it's not working...
+    //  Not sure whats wrong with my birthday validation but it's not working....
     if (!(birthday > agecheck)) {
       console.log('must be 18 years or older');
       $('#birthday-input').remove('#warning');
