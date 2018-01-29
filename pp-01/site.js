@@ -10,6 +10,7 @@ $('#contact-form').on('submit',
     var check2 = /\d{10}/;
     var check3 = /.*@.*/;
 
+    //Not sure whats wrong with my birthday validation but it's not working... 
     if (!(birthday > agecheck)) {
       console.log('must be 18 years or older');
       $('#birthday-input').remove('#warning');
